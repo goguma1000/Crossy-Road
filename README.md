@@ -22,7 +22,7 @@ void AArtisanCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 ~~~   
 BindAxis 함수를 통해 각 키에다 함수를 매핑하여 방향키를 눌렀을 때 캐릭터가 움직일 수 있도록 한다.  
 
-- 화면 밖 벗어남 방지(좌우)  
+- **화면 밖 벗어남 방지(좌우)**  
 ![제목 없는 동영상 - Clipchamp로 제작](https://github.com/goguma1000/Crossy-Road/assets/102130574/7845570d-47df-449b-80d8-61c6ef71a03d)
 ~~~cpp
 void AArtisanCharacter::LeftRight(float NewAxisValue) {
@@ -46,8 +46,10 @@ FVector2D AArtisanCharacter::TransformViewCoord(FVector2D screenSize) {
 	result.X = result.X - (screenSize.X / 2) + (screenSize.Y * 9 / 16) / 2;
 	return result;
 }
-~~~  
-</br>  
+~~~
+ 
+</br>
+
 GetSizeXY 함수를 통해 현재 모니터의 width와 height를 받는다.  
 화면을 9 : 16 비율로 고정하였기 때문에 TransformViewCoord 함수를 통해  
 캐릭터 위치를 World Coordinate에서 9: 16 View Coordinate로 변환한다.  
@@ -60,7 +62,7 @@ GetSizeXY 함수를 통해 현재 모니터의 width와 height를 받는다.
 </br>  
 
 #### **Car Class**  
-- 자동차 움직임
+- **자동차 움직임**
 ~~~cpp
 void AArtisanCar::Tick(float DeltaTime)
 {
@@ -76,7 +78,7 @@ Tick 함수를 통해 자동차의 position을 변경하여 자동차를 움직�
 </br>  
 
 
-- 플레이어와 충돌
+- **플레이어와 충돌**
 ~~~cpp
 AArtisanCar::AArtisanCar()
 {
