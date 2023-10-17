@@ -49,14 +49,13 @@ FVector2D AArtisanCharacter::TransformViewCoord(FVector2D screenSize) {
 ~~~  
 </br>  
 GetSizeXY 함수를 통해 현재 모니터의 width와 height를 받는다.  
-화면을 9 : 16 비율로 고정하였기 때문에 TransformViewCoord 함수를 통해   
+화면을 9 : 16 비율로 고정하였기 때문에 TransformViewCoord 함수를 통해  
 캐릭터 위치를 World Coordinate에서 9: 16 View Coordinate로 변환한다.  
 캐릭터가 좌측 끝이나 우측 끝에 도달하면 입력을 무시하여 화면 밖으로 벗어나지 못하게 한다.  
 
 </br>  
 
-**관련 코드 링크 :**  
-    [ArtisanCharacter.cpp](https://github.com/goguma1000/Crossy-Road/blob/main/Source/artisan/Private/ArtisanCharacter.cpp)  
+**관련 코드 링크 :** [ArtisanCharacter.cpp](https://github.com/goguma1000/Crossy-Road/blob/main/Source/artisan/Private/ArtisanCharacter.cpp)  
 
 </br>  
 
