@@ -56,9 +56,9 @@ GetSizeXY 함수를 통해 현재 모니터의 width와 height를 받는다.
 </br>  
 
 **관련 코드 링크 :**  
-    [ArtisanCharacter.cpp](https://github.com/goguma1000/Crossy-Road/blob/main/Source/artisan/Private/ArtisanCharacter.cpp)    
+    [ArtisanCharacter.cpp](https://github.com/goguma1000/Crossy-Road/blob/main/Source/artisan/Private/ArtisanCharacter.cpp)  
 
-</br>
+</br>  
 
 #### **Car Class**  
 - 자동차 움직임
