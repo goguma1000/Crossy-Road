@@ -51,6 +51,7 @@ void AArtisanCar::OnCollisionEnter(UPrimitiveComponent* OverlappedComponent, AAc
 	UGameplayStatics::GetPlayerController(GetWorld(), 0)->SetInputMode(FInputModeUIOnly());
 	UGameplayStatics::GetPlayerController(GetWorld(), 0)->SetShowMouseCursor(true);
 	AArtisanCharacter* character = Cast<AArtisanCharacter>(OtherActor);
+	character->GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	character->movingSpeed = 0.0f;
 	UUserWidget* currentWidget = CreateWidget(GetWorld(), GameOverUI);
 	Cast<UTextBlock>(currentWidget->GetWidgetFromName(TEXT("Message")))->SetText(FText::FromString("Game Over!"));
