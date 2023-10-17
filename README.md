@@ -47,8 +47,6 @@ FVector2D AArtisanCharacter::TransformViewCoord(FVector2D screenSize) {
 	return result;
 }
 ~~~
- 
-</br>
 
 GetSizeXY 함수를 통해 현재 모니터의 width와 height를 받는다.  
 화면을 9 : 16 비율로 고정하였기 때문에 TransformViewCoord 함수를 통해  
