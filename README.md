@@ -103,12 +103,11 @@ void AArtisanCar::OnCollisionEnter(UPrimitiveComponent* OverlappedComponent, AAc
 Constructor에서 BeginOverlap이벤트에 OnCollisionEnter 함수를 바인드하여 해당 이벤트가 발생하면 등록된 함수를 호출한다.  
 플레이어가 자동차와 충돌하면 PlayerController의 입력모드를 UIOnly로 변경하여 플레이어가 움직이지 못하도록 한다.  
 CreateWidget 함수로 UI를 화면에 띄운다.  
-
 </br>  
 
 **관련 코드 링크 :**  
-    [ArtisanCar.cpp](https://github.com/goguma1000/Crossy-Road/blob/main/Source/artisan/Private/ArtisanCar.cpp)    
-
+    [ArtisanCar.cpp](https://github.com/goguma1000/Crossy-Road/blob/main/Source/artisan/Private/ArtisanCar.cpp)  
+    
 </br>
 
 ### **Spawner Class**  
