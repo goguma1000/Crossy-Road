@@ -3,7 +3,8 @@ Unreal Engine 5로 개발한 간단한 미니게임. 엔진 사용법에 익숙�
 
 코드 경로: [Scripts](https://github.com/goguma1000/Crossy-Road/tree/main/Source/artisan)  
 
-**플레이영상:** [Link](https://youtu.be/u_VU_70GmHw)
+**플레이영상:** [Link](https://youtu.be/u_VU_70GmHw) (01:24)  
+
 ## **목차**   
 **[C++](#c)**  
 **[BluePrint](#blueprint)**
